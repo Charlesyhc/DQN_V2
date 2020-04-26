@@ -1,0 +1,11 @@
+net: "band.prototxt"
+solver_type: ADADELTA
+momentum: 0.90
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 10000
+max_iter: 2000000
+display: 10000
+#snapshot: 5000
+#snapshot_prefix: "./snapshort/train"
